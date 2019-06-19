@@ -25,62 +25,73 @@
             <h1>Your total is Rs.<span id="totalbill"></span></h1>
         </section>
         <div class="fruits">
-            <div id="combination">
-                <div class="my-choice">
-                    <div class="green">
-                        <h2>Rs. 10</h2>
-                    </div>
-                    <div class="whole">
-                        <figure>
-                            <img src="images/red-apple.png" alt="apple-image">
-                            <figcaption>
-                                <h2>Apple</h2>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="calculation">
-                        <button class="minus-btn" onclick="minusApple()"><i class="fas fa-minus"></i>
-                        </button>
-                        <input type="text" id="apple">
-                        <button class="plus-btn" onclick="addApple()"><i class="fas fa-plus"></i>
-                        </button>
-                    </div>
+
+            <div class="my-choice">
+                <div class="green">
+                    <h2>Rs. 10</h2>
                 </div>
-                <div class="my-choice">
-                    <div class="green">
-                        <h2>Rs. 15</h2>
-                    </div>
-                    <div class="whole">
-                        <figure>
-                            <img src="images/orange.jpeg" alt="orange-image">
-                            <figcaption>
-                                <h2>Orange</h2>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="calculation">
-                        <button class="minus-btn" onclick="minusOrange()"><i class="fas fa-minus"></i></button>
-                        <input type="text" id="orange">
-                        <button class="plus-btn" onclick="addOrange()"><i class="fas fa-plus"></i></button>
-                    </div>
+                <div class="whole">
+
+                    <img src="images/red-apple.png" alt="apple-image" class="one">
+                    <img src="images/red-apple.png" alt="apple-image" class="two">
+                    <img src="images/red-apple.png" alt="apple-image" class="three">
+
+
+
                 </div>
-                <div class="my-choice">
-                    <div class="green">
-                        <h2>Rs. 7</h2>
-                    </div>
-                    <div class="whole">
-                        <figure>
-                            <img src="images/banana-image.jpeg" alt="banana-image">
-                            <figcaption>
-                                <h2>Banana</h2>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="calculation">
-                        <button class="minus-btn" onclick="minusBanana()"><i class="fas fa-minus"></i></button>
-                        <input type="text" id="banana">
-                        <button class="plus-btn" onclick="addBanana()"><i class="fas fa-plus"></i></button>
-                    </div>
+                <div class="name">
+                    <h2>Apple</h2>
+                </div>
+                <div class="calculation">
+                    <button class="minus-btn" onclick="minusApple()"  onmouseover="aon()" onmouseout="aout()"><i class="fas fa-minus"></i>
+                    </button>
+                    <input type="text" id="apple">
+                    <button class="plus-btn" onclick="addApple()"  onmouseover="aon()" onmouseout="aout()"><i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="my-choice">
+                <div class="green">
+                    <h2>Rs. 15</h2>
+                </div>
+                <div class="whole">
+
+                    <img src="images/orange.png" alt="apple-image" class="four">
+                    <img src="images/orange.png" alt="apple-image" class="five">
+                    <img src="images/orange.png" alt="apple-image" class="six">
+
+
+
+                </div>
+                <div class="name">
+                    <h2>Orange</h2>
+                </div>
+                <div class="calculation">
+                    <button class="minus-btn" onclick="minusOrange()" onmouseover="oon()" onmouseout="oout()"><i class="fas fa-minus"></i></button>
+                    <input type="text" id="orange">
+                    <button class="plus-btn" onclick="addOrange()" onmouseover="oon()" onmouseout="oout()"><i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+            <div class="my-choice">
+                <div class="green">
+                    <h2>Rs. 10</h2>
+                </div>
+                <div class="whole">
+
+                    <img src="images/banana-image.jpeg" alt="apple-image" class="seven">
+                    <img src="images/banana-image.jpeg" alt="apple-image" class="eight">
+                    <img src="images/banana-image.jpeg" alt="apple-image" class="nine">
+
+
+
+                </div>
+                <div class="name">
+                    <h2>Apple</h2>
+                </div>
+                <div class="calculation">
+                    <button class="minus-btn" onclick="minusBanana()" onmouseover="bon()" onmouseout="bout()"><i class="fas fa-minus"></i></button>
+                    <input type="text" id="banana">
+                    <button class="plus-btn" onclick="addBanana()" onmouseover="bon()" onmouseout="bout()"><i class="fas fa-plus"></i></button>
                 </div>
             </div>
         </div>
